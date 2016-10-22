@@ -1,7 +1,4 @@
 class Megaphone::Category < ActiveRecord::Base
-  # == Accessible ==
-  attr_accessible :name
-
   # == Associations ==
   has_many :messages
 

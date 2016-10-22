@@ -1,7 +1,4 @@
 class Megaphone::Message < ActiveRecord::Base
-  # == Accessible ==
-  attr_accessible :link, :text, :title, :thumb
-
   # == Associations ==
   belongs_to :category
   belongs_to :notifiable, polymorphic: true
